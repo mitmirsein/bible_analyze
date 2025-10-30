@@ -24,7 +24,7 @@
 
     **예시:**
     ```
-    @Agent/bible/Bible_Analyze.md 히 12:2 주해해줘
+    @Bible_Analyze.md 히 12:2 주해해줘
     ```
 
 ### 👉 CLI 환경
@@ -34,7 +34,7 @@
 
     **예시:**
     ```bash
-    gemini-cli bible-analyze "John 3:16"
+    gemini bible-analyze "John 3:16"
     ```
 
 ### 👉 옵시디언(Obsidian) + CLI 연동 환경
@@ -51,7 +51,7 @@
     1.  **(꼼수)** '가장 쉬운 방법'과 동일하게, 채팅창에 프롬프트 파일을 첨부하고 분석할 구절을 입력합니다.
     2.  **(자연어)** 또는, 프롬프트 내용을 옵시디언 노트로 만들어두고, 다음과 같이 자연어로 요청합니다.
         ```
-        "'@Agent/bible/Bible_Analyze.md' 지침에 따라 '창세기 1:1'을 분석해줘"
+        "'@Bible_Analyze.md' 지침에 따라 '창세기 1:1'을 분석해줘"
         ```
 
 ### ✨ 팁: 원하는 언어로 분석하기
@@ -60,8 +60,8 @@
 
 **예시:**
 ```
-@Agent/bible/Bible_Analyze.md "John 1:1을 독일어로 주해해줘"
-@Agent/bible/Bible_Analyze.md "요한복음 1:1을 일본어로 주해해줘"
+@Bible_Analyze.md "John 1:1을 독일어로 주해해줘"
+@Bible_Analyze.md "요한복음 1:1을 일본어로 주해해줘"
 ```
 
 ---
@@ -143,7 +143,7 @@ Here are several ways to use this prompt in different environments.
 
     **Example:**
     ```
-    @Agent/bible/Bible_Analyze.md Analyze Hebrews 12:2 for me.
+    @Bible_Analyze.md Analyze Hebrews 12:2 for me.
     ```
 
 ### 👉 In a CLI Environment
@@ -153,7 +153,7 @@ Here are several ways to use this prompt in different environments.
 
     **Example:**
     ```bash
-    gemini-cli bible-analyze "John 3:16"
+    gemini bible-analyze "John 3:16"
     ```
 
 ### 👉 In an Obsidian + CLI Integrated Environment
@@ -179,8 +179,8 @@ While the prompt is configured for a Korean-centric output by default, you can r
 
 **Examples:**
 ```
-@Agent/bible/Bible_Analyze.md "Analyze John 1:1 in German"
-@Agent/bible/Bible_Analyze.md "Analyze John 1:1 in Japanese"
+@Bible_Analyze.md "Analyze John 1:1 in German"
+@Bible_Analyze.md "Analyze John 1:1 in Japanese"
 ```
 
 ---
